@@ -1,0 +1,74 @@
+body{
+    background-color: #f8f8f8;
+}
+
+#head{
+    list-style-type: none;
+    text-align: center;
+    background-color: cyan;
+    border: 2px solid darkgreen;
+}
+ul > li > a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.head_name{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.catalog_picture > li > a > img{
+    width: 300px;
+    height: 150px;
+}
+
+img[alt="phone"]{
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+img[alt="phone_product"]{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid goldenrod;
+}
+
+.catalog_item{
+    background-color: #eaeaea;
+}
+
+.description{
+    color: #707070;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.total_information{
+    color:  #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.characteristics{
+    list-style-type: none;
+    color: black;
+    background-color: lightskyblue;
+    font-weight: bolder;
+    width: 25%;
+}
+
+.input{
+    width: 250px;
+    height: 20px;
+    color: blue;
+}
