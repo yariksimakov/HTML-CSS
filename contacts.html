@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<ul>
-    <li>
-        <a href="index.html">Главная</a>
-    </li>
-    <li>
-        <a href="catalog.html">Каталог</a>
-    </li>
-    <li>
-        <a href="#">Контакты</a>
-    </li>
-</ul>
-<h1>Contacts</h1>
-<ul>
-    <li><a href="#">support</a></li>
-    <li>my phone - 84846134868</li>
-    <li>Whatsapp - 88464686464</li>
-</ul>
+    <ul id="head">
+        <li>
+            <a href="index.html">Главная</a>
+        </li>
+        <li>
+            <a href="catalog.html">Каталог</a>
+        </li>
+        <li>
+            <a href="#">Контакты</a>
+        </li>
+    </ul>
+    <h1>Registration</h1>
+    <form action="#">
+        You name <input type="text" placeholder=" Please you name" class="input"><br>
+        Password <input type="password" placeholder="Pick a password" class="input"><br>
+        you email <input type="email" placeholder="Please you email" class="input"><br>
+        You gender <br>
+        M <input type="radio" name="pol" checked>
+        F <input type="radio" name="pol"> <br>
+        You hobby <br>
+        Sport <input type="checkbox"><br>
+        IT <input type="checkbox"><br>
+        Music <input type="checkbox"><br>
+        Dance <input type="checkbox"><br>
+        <input type="submit" value="send">
+        <input type="reset" value="reset">
+    </form>
 </body>
 </html>
