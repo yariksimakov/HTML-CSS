@@ -2,22 +2,37 @@ body{
     background-color: #f8f8f8;
 }
 
-#head{
+#menu{
     list-style-type: none;
     text-align: center;
-    background-color: cyan;
-    border: 2px solid darkgreen;
-}
-ul > li > a {
-    text-decoration: none;
-    color: darkblue;
+    border: 2px solid gold;
+    background-image: url("img/DxmY9O2WkAEUXk4.jpg");
 }
 
-.head_name{
+#menu li a:hover{
+    color: lightgreen;
+}
+
+#menu li > a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.head_site{
     text-align: center;
     color: black;
     font-size: 18px;
     font-weight: 400;
+}
+
+.heading{
+    background-color: lightgray;
+    text-align: left;
+}
+
+.catalog_item .heading:first-letter{
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .catalog_picture > li > a > img{
@@ -25,19 +40,28 @@ ul > li > a {
     height: 150px;
 }
 
-img[alt="phone"]{
-    width: 150px;
+img[alt="photo"]{
+    width: 200px;
     height: 200px;
-    border: 1px solid black;
+    outline: 3px solid grey;
 }
 
-img[alt="phone_product"]{
+.img{
     width: 600px;
     height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid goldenrod;
+    outline: 3px solid goldenrod;
+}
+
+.img:hover{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
 }
 
 .catalog_item{
@@ -71,4 +95,21 @@ img[alt="phone_product"]{
     width: 250px;
     height: 20px;
     color: blue;
+    text-transform: capitalize;
+}
+
+.email{
+    color: cyan;
+    background-color: firebrick;
+}
+
+.table_characteristics{
+    border: 1px solid red;
+    /*padding: 10px;*/
+}
+
+.table_characteristics tr td{
+    border: 3px solid grey;
+    width: 20px;
+    height: 20px;
 }

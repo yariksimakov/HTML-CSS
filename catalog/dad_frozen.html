@@ -5,44 +5,86 @@
     <title>New Year</title>
     <link rel="stylesheet" href="../style.css">
 </head>
-<body class="Catalog_item">
-    <ul id="head">
-        <li>
-            <a href="../index.html">Главная</a>
-        </li>
-        <li>
-            <a href="../catalog.html">Каталог</a>
-        </li>
-        <li>
-            <a href="../contacts.html">Контакты</a>
-        </li>
-    </ul>
+<body class="catalog_item">
+    <div class="header">
+        <ul id="menu">
+            <li>
+                <a href="../index.html">Главная</a>
+            </li>
+            <li>
+                <a href="../catalog.html">Каталог</a>
+            </li>
+            <li>
+                <a href="../contacts.html">Контакты</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
         <a href="../img/Dad_frozen.png" target="_blank">
-        <img src="../img/Dad_frozen.png" alt="phone_product">
+            <img src="../img/Dad_frozen.png" alt="photo_product" class="img">
         </a>
-    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        <em>Alias maiores officia tempore vel. Fugit, porro</em>
-    </p>
+        <h3 class="heading">Description</h3>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <em>Alias maiores officia tempore vel. Fugit, porro</em>
+        </p>
 
-    <h3>Product characteristics </h3>
-    <ul class="characteristics">
-        <li>height = 320 cm</li>
-        <li>width = 600 cm</li>
-        <li>weight = 20 kg</li>
-    </ul>
-
-    <p class="description total_information">
-        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi at&nbsp;commodi
-    deleniti dicta, distinctio earum enim fugiat fugit hic iusto magni, numquam obcaecati
-    quaerat quam quo recusandae repellat reprehenderit, sunt tempore temporibus ullam vel
-    voluptatem! Asperiores beatae cum dolore facilis impedit maiores molestias, nesciunt
-    perferendis veniam voluptates? Optio, voluptates!</i>
-    </p>
-    <hr>
-
-    <p class="description"> <q>This is very nice products</q></p>
-
-    <b>&copy; All rights reserved</b> <br>
-
+        <h3>Product characteristics </h3>
+        <table class="table_characteristics">
+            <tr>
+                <td>Composition</td>
+                <td>Depth of Field</td>
+                <td>Light</td>
+            </tr>
+            <tr>
+                <td>Colors</td>
+                <td>Shade</td>
+                <td>Facets</td>
+            </tr>
+        </table>
+        <ul class="characteristics">
+            <li>height = 320 cm</li>
+            <li>width = 600 cm</li>
+            <li>weight = 20 kg</li>
+        </ul>
+        <table class="table_characteristics">
+            <tr style="text-transform: uppercase">
+                <td rowspan="2">xy</td>
+                <td>xy</td>
+                <td colspan="2">xy</td>
+                <td>xy</td>
+            </tr>
+            <tr>
+                <td>xy</td>
+                <td>xy</td>
+                <td>xy</td>
+                <td>xy</td>
+            </tr>
+            <tr>
+                <td>xy</td>
+                <td rowspan="2">xy</td>
+                <td>xy</td>
+                <td>xy</td>
+                <td>xy</td>
+            </tr>
+            <tr>
+                <td>xy</td>
+                <td colspan="2">xy</td>
+                <td>xy</td>
+            </tr>
+        </table>
+        <h3 class="heading">Total description product</h3>
+        <p class="description total_information">
+            <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi at&nbsp;commodi
+        deleniti dicta, distinctio earum enim fugiat fugit hic iusto magni, numquam obcaecati
+        quaerat quam quo recusandae repellat reprehenderit, sunt tempore temporibus ullam vel
+        voluptatem! Asperiores beatae cum dolore facilis impedit maiores molestias, nesciunt
+        perferendis veniam voluptates? Optio, voluptates!</i>
+        </p>
+        <hr>
+    </div>
+    <div class="footer">
+        <p class="description"> <q>This is very nice products</q></p>
+        <b>&copy; All rights reserved</b> <br>
+    </div>
 </body>
 </html>
