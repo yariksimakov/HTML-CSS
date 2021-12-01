@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.slider{
+    padding-top: 16px;
+    margin: 15px 68px;
+    height: 720px;
+    width: 1920px;
+    background-image: url("img/2.jpg");
+}
+
+.flat{
+    background-color: black;
+}
+
+.header{
+    margin-top: 19px;
+    margin-bottom: 19px;
+    display: inline-block;
+    margin-left: 475px;
+}
+
+.heading{
+    float: left;
+    margin-right: 160px;
+}
+
+.clearfix:after{
+   content: "";
+    display: table;
+    clear: both;
+}
+
+.header_h2{
+    /* Style for "Historical" */
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: left;
+}
+
+.header_p{
+    color: #ffffff;
+    letter-spacing: 22px;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22.36px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.content{
+    /* Style for "info@examp" */
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: left;
+    float: right;
+    /*margin-left: 189px;*/
+
+}
+
+.slider_header{
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 30px;
+    margin-top: 32px;
+    letter-spacing: 12px;
+
+}
+
+.list{
+    display: inline;
+    margin-right: 78px;
+}
+
+.input{
+    width: 208px;
+    height: 38px;
+}
+
+.button{
+    text-decoration: none;
+    color: red;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu_list{
+    display: inline;
+}
+
+.menu_link{
+    text-decoration: none;
+    /* Style for "Home" */
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: center;
+    /*display: inline-block;*/
+}
+
+.menu_link:hover{
+    color: crimson;
+}
+
+.content_text{
+    margin-left: 906px;
+    margin-top: 134px;
+    width: 110px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    border-bottom: 4px solid black;
+}
+
+.content_header{
+    /* Style for "Morbi in n" */
+    color: #000000;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 76px;
+}
+
+.pagination{
+    text-align: center;
+    margin-top: 66px;
+}
+
+.pagination_list{
+    border: 2px solid #ffffff;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.pagination_link{
+    display: block;
+    margin-top: 10px;
+}
+
+.pagination_link:hover{
+    background-color: cornflowerblue;
+}
